@@ -13,7 +13,7 @@ const Footer = () => {
         <h3>footer section</h3>
         <ul>
           {menus.map((menu) => (
-            <li>
+            <li key={menu.id}>
               <a href="#">{menu.name}</a>
             </li>
           ))}

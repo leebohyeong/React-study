@@ -13,8 +13,8 @@ const Header = () => {
             <h1>Hello React</h1>
             <nav>
                 <ul>
-                    {menus.map((menu, i) => (
-                        <li key={name.id}>
+                    {menus.map((menu) => (
+                        <li key={menu.id}>
                             {/* <span>{menu.id}</span> */}
                             <a href="#">{menu.name}-{menu.id}</a>
                         </li>
